@@ -1,0 +1,90 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  position: sticky;
+  padding: 0 40px;
+}
+
+.dark-bg {
+  background-color: #212121;
+  color: #f9f9f9;
+}
+
+.nxtwatch-logo {
+  width: 200px;
+  margin-left: 60px;
+}
+
+.theme-icon {
+  font-size: 30px;
+  margin-right: 40px;
+}
+
+.theme-icon-dark {
+  color: #f9f9f9;
+  font-size: 30px;
+  margin-right: 40px;
+}
+
+.profile-icon {
+  width: 40px;
+  margin-right: 40px;
+}
+
+.logout-button {
+  border: 1px solid #3b82f6;
+  border-radius: 8px;
+  outline: none;
+  background: transparent;
+  color: #3b82f6;
+  font-family: 'Roboto';
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px 16px;
+  margin-right: 60px;
+}
+
+.button-dark {
+  border: 1px solid #f9f9f9;
+  color: #ffffff;
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.theme-button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .nxtwatch-logo {
+    max-width: 80px;
+    margin-left: 10px;
+  }
+  .theme-icon {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .theme-icon-dark {
+    color: #f9f9f9;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .profile-icon {
+    width: 25px;
+    margin-right: 15px;
+  }
+  .header-container {
+    padding: 0 20px;
+  }
+}
